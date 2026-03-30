@@ -1,0 +1,29 @@
+.search-container {
+    width: 300px;
+    margin: 50px auto;
+    position: relative;
+}
+.search-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.search-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}   
+.search-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    cursor: pointer;
+}
+.list-item:hover {
+    background-color: #f0f0f0;
+}
